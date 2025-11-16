@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTools MCP | Google DevFest Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">DevFest Workshop</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="gdg-devfest.html">GDG & DevFest</a></li>
+                <li><a href="devtools-mcp.html" class="active">DevTools MCP</a></li>
+                <li><a href="about.html">关于我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Chrome DevTools MCP Server</h1>
+            <p class="page-subtitle">强大的开发工具集成平台</p>
+        </div>
+    </section>
+
+    <!-- MCP 介绍 -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="content-title">什么是 MCP？</h2>
+                <div class="content-text">
+                    <p>
+                        <strong>Model Context Protocol (MCP)</strong> 是一个开放协议，用于连接 AI 应用与外部数据源和工具。
+                        Chrome DevTools MCP Server 实现了这一协议，为开发者提供了强大的工具集成能力。
+                    </p>
+                    <div class="tech-features">
+                        <div class="tech-feature">
+                            <h3>🔌 无缝集成</h3>
+                            <p>通过 MCP 协议，DevTools 可以轻松与其他开发工具和服务集成</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h3>⚡ 高效开发</h3>
+                            <p>统一的接口和协议，减少工具切换成本，提升开发效率</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h3>🌐 开放生态</h3>
+                            <p>基于开放标准，支持社区贡献和扩展</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心功能 -->
+    <section class="content-section alt-bg">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="content-title">核心功能</h2>
+                <div class="content-text">
+                    <div class="function-grid">
+                        <div class="function-card">
+                            <div class="function-icon">🌐</div>
+                            <h3>页面导航</h3>
+                            <p>支持页面导航、截图、快照等操作</p>
+                        </div>
+                        <div class="function-card">
+                            <div class="function-icon">🔍</div>
+                            <h3>元素操作</h3>
+                            <p>点击、输入、拖拽等交互操作</p>
+                        </div>
+                        <div class="function-card">
+                            <div class="function-icon">📊</div>
+                            <h3>性能分析</h3>
+                            <p>性能追踪和性能洞察分析</p>
+                        </div>
+                        <div class="function-card">
+                            <div class="function-icon">🛠️</div>
+                            <h3>网络监控</h3>
+                            <p>网络请求监控和调试</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 新能源场景应用 -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="content-title">在新能源行业的应用场景</h2>
+                <div class="content-text">
+                    <p>
+                        Chrome DevTools MCP Server 在新能源行业有着广泛的应用前景，
+                        特别是在能源监测与优化工具开发方面：
+                    </p>
+                    <div class="application-list">
+                        <div class="application-item">
+                            <h3>🌞 光伏功率预测工具</h3>
+                            <p>
+                                利用 DevTools MCP 的页面操作能力，可以自动化采集光伏监控系统的数据，
+                                结合 AI 模型进行功率预测，帮助优化能源调度。
+                            </p>
+                        </div>
+                        <div class="application-item">
+                            <h3>🔋 储能调度模拟工具</h3>
+                            <p>
+                                通过 MCP 协议集成多个数据源，构建储能系统的调度模拟平台，
+                                实时监控储能状态，优化充放电策略。
+                            </p>
+                        </div>
+                        <div class="application-item">
+                            <h3>📈 能源监测仪表板</h3>
+                            <p>
+                                使用 DevTools MCP 的页面快照和性能分析功能，
+                                开发可视化的能源监测仪表板，实时展示能源使用情况。
+                            </p>
+                        </div>
+                        <div class="application-item">
+                            <h3>🌐 智能电网监控系统</h3>
+                            <p>
+                                结合 MCP 的网络监控和元素操作能力，
+                                构建智能电网的自动化监控和控制系统，提升电网运行效率。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术优势 -->
+    <section class="content-section alt-bg">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="content-title">技术优势</h2>
+                <div class="content-text">
+                    <ul class="advantage-list">
+                        <li>
+                            <strong>标准化协议：</strong>
+                            MCP 协议提供了标准化的接口，使得不同工具之间的集成更加简单
+                        </li>
+                        <li>
+                            <strong>灵活扩展：</strong>
+                            支持自定义工具和功能扩展，适应不同行业的需求
+                        </li>
+                        <li>
+                            <strong>高效开发：</strong>
+                            减少重复开发，通过工具集成提升整体开发效率
+                        </li>
+                        <li>
+                            <strong>社区支持：</strong>
+                            活跃的开源社区，持续改进和优化
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:linchen_energy@163.com">📧 linchen_energy@163.com</a></li>
+                        <li><a href="https://github.com/LinChen-Energy" target="_blank">💻 GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/linchen-energy" target="_blank">💼 LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>相关链接</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="gdg-devfest.html">GDG & DevFest</a></li>
+                        <li><a href="about.html">关于我</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 林辰 | Google DevFest Workshop</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
